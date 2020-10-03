@@ -2,10 +2,13 @@ import time
 import pandas as pd
 import numpy as np
 
+#dictionary for data file selection
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+#set for month filter selection (data set only includes months Jan to June)
 months = ['all','january', 'february', 'march', 'april', 'may', 'june']
+#set for weekday selection
 days = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday','saturday','sunday','all']
 
 def get_filters():
