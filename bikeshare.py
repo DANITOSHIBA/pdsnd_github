@@ -161,9 +161,9 @@ def trip_duration_stats(df):
     total_time = df['Trip Duration'].sum()
     print("Total travel time in seconds: {}".format(total_time))
     print("Total travel time in minutes: {}".format(total_time/60))
-    print("Total travel time in hours: {}".format(total_time/60/60))
-    print("Total travel time in days: {}".format(total_time/60/60/24))
-    if total_time/60/60/24 > 30:
+    print("Total travel time in hours: {}".format(total_time/3600))
+    print("Total travel time in days: {}".format(total_time/86400))
+    if total_time/86400 > 30:
         print("*Wow, that's more than one month!*")
 
     # display mean travel time
