@@ -10,5 +10,10 @@ For this script to run you will need the following raw data files:
 - new_york_city.csv
 - washington.csv
 
+## Python libraries used
+- pandas
+- numpy
+- time
+
 ## Credits
 All credits go the Udacity team and the nanodegree program ["Programming for Data Science with Python Nanodegree Program"](https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104).
